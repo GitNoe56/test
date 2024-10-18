@@ -4,7 +4,7 @@
 
 	<groupId>26f3a918-aa3d-4085-92c3-a71feb4a527e</groupId>
 	<artifactId>test-app</artifactId>
-	<version>1.2.5</version>
+	<version>1.2.6</version>
 	<packaging>mule-application</packaging>
 
 	<name>test</name>
@@ -36,13 +36,13 @@
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>4.3.0</version>
+				<version>3.4.0</version>
 				<extensions>true</extensions>
 			</plugin>
 			<plugin>
 				<groupId>org.mule.tools.maven</groupId>
 				<artifactId>mule-maven-plugin</artifactId>
-				<version>4.3.0</version>
+				<version>3.4.0</version>
 				<extensions>true</extensions>
 				<configuration>
 					<classifier>mule-application</classifier>
