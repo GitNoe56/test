@@ -53,7 +53,7 @@
 						<connectedAppGrantType>client_credentials</connectedAppGrantType>
 						<uri>https://anypoint.mulesoft.com</uri>
 						<provider>MC</provider>
-						<environment>Sandbox</environment>
+						<environment>Int</environment>
 						<target>Cloudhub-US-East-2</target>
 						<muleVersion>4.6.7</muleVersion>
 						<applicationName>test</applicationName>
