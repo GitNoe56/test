@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>26f3a918-aa3d-4085-92c3-a71feb4a527e</groupId>
-	<artifactId>test-app-v1219</artifactId>
-	<version>1.2.19</version>
+	<artifactId>test-app-v1220</artifactId>
+	<version>1.2.20</version>
 	<packaging>mule-application</packaging>
 
 	<name>test</name>
