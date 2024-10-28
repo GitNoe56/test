@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>26f3a918-aa3d-4085-92c3-a71feb4a527e</groupId>
-	<artifactId>test-app-version115</artifactId>
-	<version>1.0.15</version>
+	<artifactId>test-app-v1012</artifactId>
+	<version>1.0.12</version>
 	<packaging>mule-application</packaging>
 
 	<name>test</name>
@@ -21,7 +21,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-		<app.runtime>4.6.7</app.runtime>
+		<app.runtime>4.8.0</app.runtime>
 		<mule.maven.plugin.version>4.3.0</mule.maven.plugin.version>
 	</properties>
 
@@ -54,10 +54,19 @@
 						<provider>MC</provider>
 						<environment>Int</environment>
 						<target>Cloudhub-US-East-2</target>
-						<muleVersion>4.6.7</muleVersion>
+						<muleVersion>4.8.0</muleVersion>
 						<applicationName>test</applicationName>
 						<replicas>1</replicas>
 						<vCores>0.1</vCores>
+						<deploymentSettings>
+							<http>
+								<inbound>
+									<!--<publicUrl>${publicURL}</publicUrl>-->
+									<!--<forwardSslSession>true</forwardSslSession>  -->
+									<lastMileSecurity>true</lastMileSecurity>
+								</inbound>
+							</http>
+						</deploymentSettings>
 					</cloudhub2Deployment>
 				</configuration>
 			</plugin>
